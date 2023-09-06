@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   FormAPI:
-    path: ""
+    path: "" 
+    icon: "icon.png"
 ...
