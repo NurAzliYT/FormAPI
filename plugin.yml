@@ -1,16 +1,24 @@
 name: FormAPI
-main: NurAzli\FormAPI\FormAPI
-api: 5.0.0
+main: NurAzliYT\FormAPI\FormAPI
 version: 1.0.0
-description: For Developer Tools
-authors:
-- NurAzli
-- NurAzliYT
+api: 5.0.0
+author: NurAzliYT
+description: "For Developer Tools, For Create "
 
 commands:
-  formapi:
-    permission: formapi.command
-    
+  fapi:
+      description: "FormAPI Commands"
+      permission: fapi.command
+
 permissions:
-  formapi.command
-  default: op
+  fapi.command:
+      default: op
+commands:
+  formapi:
+      description: "FormAPI Commands"
+      permission: formapi.command
+
+permissions:
+  Form.command:
+      default: op
+      
