@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace NurAzliYT\FormAPI;
 
-use pocketmine\form\Form as IForm;
+use pocketmine\form\Form;
 use pocketmine\player\Player;
 
 abstract class Form implements IForm{
