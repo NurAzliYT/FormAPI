@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NurAzliYT/FormAPI
+build-by-default: true
+branches:
+- main
+projects:
+  FormAPI:
+    icon "icon.png"
+    path: ""
+...
