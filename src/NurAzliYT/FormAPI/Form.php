@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 namespace NurAzliYT\FormAPI;
 
-use pocketmine\form\Form;
+use pocketmine\form\Form as IForm;
 use pocketmine\player\Player;
 
-abstract class Form implements Form{
+abstract class Form implements IForm{
 
     /** @var array */
     protected $data = [];
