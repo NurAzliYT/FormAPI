@@ -13,12 +13,3 @@ commands:
 permissions:
   fapi.command:
       default: op
-commands:
-  formapi:
-      description: "FormAPI Commands"
-      permission: formapi.command
-
-permissions:
-  Form.command:
-      default: op
-      
